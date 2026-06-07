@@ -2,32 +2,76 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Pour toi ❤️</title>
+    <title>Pour toi SERINEEEEEEEEEEE❤️</title>
+
     <style>
         body{
             font-family: Arial, sans-serif;
-            background:#ffe6f0;
-            text-align:center;
-            padding-top:100px;
+            background: linear-gradient(#ffe6f0, #fff);
+            text-align: center;
+            padding: 50px;
         }
-        h1{color:#ff4d88;}
+
+        h1{
+            color:#ff4d88;
+        }
+
+        img{
+            width: 250px;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .message{
+            margin-top: 20px;
+            font-size: 18px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         button{
-            padding:15px 30px;
-            font-size:18px;
-            cursor:pointer;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+
+        button:hover{
+            background-color: #e6005c;
         }
     </style>
 </head>
-<body>
-    <h1>Pour la personne qui compte le plus pour moi ❤️</h1>
-    <p>Clique sur le bouton ci-dessous.</p>
 
-    <button onclick="declaration()">Découvrir le message</button>
+<body>
+
+    <!-- Titre principal -->
+    <h1>Pour toi ❤️</h1>
+
+    <!-- Image : mets ici votre photo -->
+    <!-- Remplace "photo.jpg" par le nom de ton image -->
+    <img src="photo.jpg" alt="Notre photo">
+
+    <!-- Message de déclaration -->
+    <div class="message">
+        Depuis que tu es entrée dans ma vie, tout est devenu plus beau.
+        Chaque message avec toi compte énormément pour moi.
+        Aujourd’hui j’avais besoin de te dire quelque chose de sincère.
+    </div>
+
+    <!-- Bouton pour révéler la déclaration -->
+    <button onclick="declaration()">Voir mon message</button>
 
     <script>
         function declaration() {
-            alert("Je t'aime ❤️");
+            alert("Je t'aime ❤️\n\nTu veux être la femme de ma vie ?");
         }
     </script>
+
 </body>
 </html>
