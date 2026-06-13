@@ -63,13 +63,23 @@
     </div>
 
     <!-- Bouton pour révéler la déclaration -->
-    <button onclick="declaration()">Voir mon message</button>
+   <button onclick="declaration()">Voir mon message ❤️</button>
 
-    <script>
-        function declaration() {
-            alert("Je t'aime ❤️\n\nTu veux être la femme de ma vie ?");
-        }
-    </script>
+<script>
+function declaration() {
 
-</body>
-</html>
+    const reponse = prompt(
+        "Je t'aime SISSINA ❤️\n\nTu veux etre ma future femme (gf for now) ?\n\nÉcris ta réponse ci-dessous :"
+    );
+
+    if (reponse !== null && reponse !== "") {
+
+        window.location.href =
+        "mailto:riffimohamedredha@gmail.com"
+        + "?subject=" + encodeURIComponent("Réponse de Serine ❤️")
+        + "&body=" + encodeURIComponent(
+            "Sa réponse :\n\n" + reponse
+        );
+    }
+}
+</script>
